@@ -60,7 +60,7 @@ header nav a.activo {
 }
 
 .Nuevos-lanzamientos {
-    margin-bottom: 70px;
+    margin-bottom: 10px;
     align-items: center;
     position: relative;
 }
@@ -79,7 +79,7 @@ header nav a.activo {
 
 .titulo h2 {
     color: blanchedalmond;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
@@ -99,5 +99,4 @@ header nav a.activo {
 
 main .carrusel {
     display: flex;
-    justify-content: space-between;
 }
