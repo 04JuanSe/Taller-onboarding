@@ -29,7 +29,7 @@ header .contenedor {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 header .logo {
@@ -45,16 +45,28 @@ header nav a {
     margin-right: 20px;
 }
 
-header nav a:hover, 
-header nav a.activo{
+header nav a:hover,
+header nav a.activo {
     color: red;
 }
 
 /* ---------- contenedores -------------*/
 
 .accion-y-aventura {
-    margin-bottom: 70px;
+    margin-bottom: 80px;
     display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.Nuevos-lanzamientos {
+    margin-bottom: 70px;
+    align-items: center;
+    position: relative;
+}
+
+.Thrillers {
+    margin-bottom: 70px;
     align-items: center;
     position: relative;
 }
@@ -64,9 +76,11 @@ header nav a.activo{
     justify-content: space-between;
     align-items: end;
 }
-.titulo h2{
+
+.titulo h2 {
     color: blanchedalmond;
     font-size: 30px;
+
 }
 
 .titulo .indicadores button {
@@ -80,10 +94,10 @@ header nav a.activo{
 
 .titulo .indicadores button:hover,
 .titulo .indicadores button.activo {
-    background  : #e50914;
+    background: #e50914;
 }
 
-.carrusel {
+main .carrusel {
     display: flex;
     justify-content: space-between;
 }
