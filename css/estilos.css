@@ -100,3 +100,7 @@ header nav a.activo {
 main .carrusel {
     display: flex;
 }
+
+ body {
+    overflow-x: hidden;
+  }
